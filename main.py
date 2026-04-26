@@ -5,7 +5,7 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands= )
 def send_welcome(message):
-    bot.reply_to(message, "✅ بوت النشر شغال!\nسيبدأ النشر تلقائياً.")
+    bot.reply_to(message, "✅ البوت شغال!")
 
 print("✅ البوت شغال بنجاح...")
 bot.infinity_polling()
